@@ -41,12 +41,12 @@
     <div id="poem"></div>
     <script>
       // set up the lists of words
-      const subjects = "pies,lemon tarts,raspberry souflès,cinnamon scrolls, custard rolls, black forest cake".split(
+      const subjects = "Bees buzz,Bees fly,Bees flower,Bees die,Bees fuzz,Bees power".split(
           ","
         ),
-        verbs = "saves,destroys,explodes,invades,evaporates in".split(","),
-        small_words = "in my,".split(","),
-        objects = "mouth,tastebuds,life,tummy".split(",");
+        verbs = "".split(","),
+        small_words = "".split(","),
+        objects = "".split(",");
       // set up the counter
       let counter = 0;
 
@@ -66,7 +66,7 @@
           getRandomFromList(subjects) +
           " " +
           getRandomFromList(verbs) +
-          " my " +
+          " " +
           getRandomFromList(objects);
         (" ");
         getRandomFromList(small_words);
